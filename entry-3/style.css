@@ -1,34 +1,33 @@
 body {
     background-color: #fffbc8;
+    font-family: Bradley Hand, cursive;
 }
 
 .text-align1{
     text-align: left;
+    margin-right: 20px; 
 }
 
 .title-text{
     color: #000;
-    font-family: Bradley Hand, cursive;
     font-size: 45px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .text-align2{
     text-align: right;
+    margin-right: 20px; 
 }
 
 .text{
     color: #000;
-font-family: Bradley Hand, cursive;
-font-size: 30px;
-font-weight: 400;
-line-height: normal;
+    font-size: 30px;
+    font-weight: 400;
 }
 
 .image-align{
     text-align: right;
+    margin-right: 20px; 
 }
 
 .smile-image{
