@@ -3,6 +3,7 @@ body {
     font-family: Bradley Hand, cursive;
 }
 
+/* text */
 .text-align1{
     text-align: left;
     margin-right: 20px; 
@@ -25,6 +26,7 @@ body {
     font-weight: 400;
 }
 
+/* image positioning */
 .image-align{
     text-align: right;
     margin-right: 20px; 
