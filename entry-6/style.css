@@ -156,7 +156,7 @@ body {background-color: rgb(116, 32, 250);}}
 @media (max-width: 590px){
 body {background-color: rgb(66, 121, 11);}}
     
-@media (max-height: 350px){
+@media (max-width: 350px){
 body {background-color: rgb(48, 160, 251);}}   
 
 

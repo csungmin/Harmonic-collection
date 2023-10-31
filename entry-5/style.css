@@ -1,108 +1,81 @@
-.grid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 1rem;
-    max-width: 500px;
-  }
+body{background-color: #e4c4f5;}
 
-  .smile-image{
-    width: 180px;
+.image1{ display: block; width:400px; border-radius: 5px;}
+
+.image2{ display: block; width:400px; border-radius: 5px;}
+
+.pigeon{
+    width:10%;
 }
 
-body {
-    background-color: #fffbc8;
+/*text position*/
+.textposition{
+    position: relative;
+    top: 5px;
+    left:340px;
+    margin-left:0px;
+}
+.textposition2{
+    position: relative;
+    top: 150px;
+    left:540px;
+    margin-left:0px;
 }
 
-.title-text{
+/* image position */
+.imageposition{
+    position: relative;
+    top: 45px;
+    left:140px;
+    margin-left:0px;
+    margin-right:0px;
+}
+.imageposition2{
+    position: relative;
+    top: -460px;
+    left:740px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+/* small pigeions position */
+.position{
+    position: relative;
+    top: -1010px;
+    left:240px;
+    margin-left:0px;
+    margin-right:0px;
+}
+.position1{
+    position: relative;
+    top: -500px;
+    left:80px;
+    margin-left:0px;
+    margin-right:0px;
+}
+.position2{
+    position: relative;
+    top: -800px;
+    left:720px;
+    margin-left:0px;
+    margin-right:0px;
+}
+.position3{
+    position: relative;
+    top: -1200px;
+    left:1150px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+/* text information */
+.text{
     text-align: left;
     color: #000;
-    font-family: 'dekko';
-    font-size: 17px;
+    font-size: 30px;
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-}
-
-.box1{
     position: relative;
-    top: 30px;
-    left:60px;
-    background-color: #fffa63;
-}
-
-.box2{
-    position: relative;
-    top: 50px;
-    left:150px;
-    background-color: #2babc2;
-}
-
-.box3{
-    position: relative;
-    top: 100px;
-    left:100px;
-    background-color: #cef1bc;
-}
-
-.box4{
-    position: relative;
-    top: 20px;
-    left:150px;
-    background-color: #ffbaba;
-}
-
-.box5{
-    position: relative;
-    top: 150px;
-    left:220px;
-    background-color: #2bc277;
-}
-
-.box6{
-    position: relative;
-    top: 0px;
-    left:130px;
-    background-color: #feca69;
-}
-
-.box7{
-    position: relative;
-    top: 150px;
-    left:150px;
-    background-color: #a6dae3;
-}
-
-.box8{
-    position: relative;
-    top: 10px;
-    left:20px;
-    background-color: #f58080;
-}
-
-.box9{
-    position: relative;
-    top: 150px;
-    left:200px;
-    background-color: #e18bcd;
-}
-
-.box10{
-    position: relative;
-    top: 200px;
-    left:130px;
-    background-color: #ebaa70;
-}
-
-.box11{
-    position: relative;
-    top: 40px;
-    left:90px;
-    background-color: #b5b4e6;
-}
-
-.box12{
-    position: relative;
-    top: 50px;
-    left:200px;
-    background-color: #ffd3f5;
+    top: -900px;
 }
