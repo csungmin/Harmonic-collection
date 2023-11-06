@@ -1,0 +1,58 @@
+
+body {
+    background-color: #fffbc8;
+}
+
+.title {
+    position: relative;
+    top: 40px;
+    position:fixed;
+    top:0; left:0; right:0;
+    background-color: #fbd67f;
+    padding: 1rem 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.title-text{
+    margin:0;
+    text-align: center;
+    color: #000;
+    font-family: 'dekko';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+/* removing underline and blue for links */
+.link {
+    Text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+
+
+.title-image{
+    width:13%;
+}
+
+.image1{
+    width:25%;
+    border-radius: 5%;
+}
+
+.img-gallery{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    position: relative;
+    top: 180px;
+}
+
+.images :hover{
+    transform: scale(110%);
+    transition: 1s;
+}
