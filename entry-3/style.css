@@ -1,6 +1,10 @@
 body {
     background-color: #fbd67f;
-    font-family: Bradley Hand, cursive;
+    font-family: 'dekko';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
 }
 
 /* text */
