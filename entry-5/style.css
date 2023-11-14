@@ -1,4 +1,7 @@
-body{background-color: #e4c4f5;}
+body{
+    background-color: #e4c4f5;
+    overflow-x: hidden;
+}
 
 .image1{ display: block; width:400px; border-radius: 5px;}
 
