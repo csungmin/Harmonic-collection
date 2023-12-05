@@ -98,7 +98,6 @@ body {
     position:fixed;
     bottom:0px;
     overflow:hidden;
-    pointer-events:none;
 }
 
 .bubble-wrapper2{
@@ -107,7 +106,6 @@ body {
     position:fixed;
     bottom:0px;
     overflow:hidden;
-    pointer-events:none;
 }
 
 .bubble{
@@ -131,13 +129,18 @@ body {
     position:absolute;
     left:65%;
     top:100%;
+    /* animation code for bubble to move */
     animation: wave 2s ease-in-out infinite;
 }
 
+
+/* keyframe animation */
 @keyframes wave {
+    /* movind left and right? (but not working yet) */
     from, to {
         transform: translate(-50%, 0%);
     }
+    /* movind up and down */
     50% {
         transform: translate(-50%, -20%);
     }
