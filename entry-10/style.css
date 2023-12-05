@@ -1,7 +1,5 @@
 body {
-    background-color: #fbdbe8; 
-    /* the contrast ratio of text and background colour
-     is 16.39:1 which is very easy to read */
+    background-color: #ffffe3;
 }
 
 /* text settings */
@@ -72,12 +70,14 @@ body {
     grid-row: 1 / 4;
     grid-column: 9 / 14; 
     margin:auto;
-    visibility:hidden;
 }
 
-.box-1:hover ~ .box-2{
-    visibility:visible;
+.box-3{
+    grid-row: 3 / 4;
+    grid-column: 2 / 8; 
+    margin:auto;
 }
+
 
 /* back to home button */
 .home-image{
@@ -89,4 +89,56 @@ body {
     top: 0px;
     left: 1250px;
     margin-left:0px;
+}
+
+/* bubble code from youtube search */
+.bubble-wrapper{
+    height:100%;
+    width:100%;
+    position:fixed;
+    bottom:0px;
+    overflow:hidden;
+    pointer-events:none;
+}
+
+.bubble-wrapper2{
+    height:100%;
+    width:100%;
+    position:fixed;
+    bottom:0px;
+    overflow:hidden;
+    pointer-events:none;
+}
+
+.bubble{
+    /* size for the circle */
+    height:max(180px,20vw);
+    width:max(180px,20vw);
+    background-color: #f6cd0b;
+    border-radius: 100%;
+    position:absolute;
+    left:40%;
+    top:100%;
+    /* animation code for bubble to move */
+    animation: wave 2s ease-in-out infinite; 
+}
+
+.bubble2{
+    height:max(180px,20vw);
+    width:max(180px,20vw);
+    background-color: #f6cd0b;
+    border-radius: 100%;
+    position:absolute;
+    left:65%;
+    top:100%;
+    animation: wave 2s ease-in-out infinite;
+}
+
+@keyframes wave {
+    from, to {
+        transform: translate(-50%, 0%);
+    }
+    50% {
+        transform: translate(-50%, -20%);
+    }
 }
