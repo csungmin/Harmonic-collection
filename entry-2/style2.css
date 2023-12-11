@@ -1,0 +1,21 @@
+body {
+    background-color: #e8f1f2;
+}
+
+.center-horizontal{
+    text-align: center;
+}
+
+.title-text {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }  
+  
+.text {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image {
+    width: 300px;
+}

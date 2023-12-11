@@ -1,21 +1,94 @@
 body {
-    background-color: #e8f1f2;
+    background-color: #ffbc9a;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    margin: 0; 
 }
-
-.center-horizontal{
+.title-text{
     text-align: center;
+    color: #000;
+    font-family: 'dekko';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    position: absolute; 
+    top: 0%;
 }
 
-.title-text {
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }  
-  
-.text {
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.text{
+    text-align: center;
+    color: #000;
+    font-family: 'dekko';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute; 
+    top: 6%;
 }
 
-.image {
+/* the main image size */
+.image{
+    width: 700px;
+    height: 700px;
+    position: absolute; 
+    top:35%
+}
+
+
+/* places image size and position */
+.image1{
+    width: 200px;
+    height: auto;
+    position: absolute; 
+    top:15%;
+    left:15%;
+    z-index: 1;
+}
+.image2{
+    width: 205px;
+    height: auto;
+    position: absolute; 
+    top:20%;
+    left:30%;
+    z-index: 2;
+}
+.image3{
+    width: 150px;
+    height: auto;
+    position: absolute; 
+    top:20%;
+    left:45%;
+    z-index: 5;
+}
+.image4{
     width: 300px;
+    height: auto;
+    position: absolute; 
+    top:15%;
+    left:55%;
+    z-index: 4;
 }
+.image5{
+    width: 200px;
+    height: auto;
+    position: absolute; 
+    top:18%;
+    left:75%;
+    z-index: 3;
+}
+
+/* back to home button */
+.home-image{
+    width: 30%;
+}
+
+.homeposition{
+    position: absolute;
+    top: 130%;
+    left: 80%;
+    margin-left:0px;
+} 
