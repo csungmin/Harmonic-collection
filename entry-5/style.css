@@ -82,3 +82,15 @@ body{
     position: relative;
     top: -900px;
 }
+
+/* back to home button */
+.home-image{
+    width: 7%;
+}
+
+.homeposition{
+    position: relative;
+    top: 0px;
+    left: 1290px;
+    margin-left:0px;
+}

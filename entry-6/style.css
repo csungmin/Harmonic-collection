@@ -249,3 +249,15 @@ body {background-color: rgb(48, 160, 251);}}
         margin-right:0px;
     }
      }
+
+ /* back to home button */
+.home-image{
+    width: 7%;
+}
+
+.homeposition{
+    position: relative;
+    top: 0px;
+    left: 1290px;
+    margin-left:0px;
+}

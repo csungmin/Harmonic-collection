@@ -71,3 +71,15 @@ body {
 .box-1:hover ~ .box-2{
     visibility:visible;
 }
+
+/* back to home button */
+.home-image{
+    width: 7%;
+}
+
+.homeposition{
+    position: relative;
+    top: 0px;
+    left: 1290px;
+    margin-left:0px;
+}

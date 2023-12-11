@@ -71,9 +71,6 @@ body {
     border-radius: 5px;
 }
 
-.title-image{
-    width: 5%;
-}
 
 
 /* image position */
@@ -90,4 +87,16 @@ body {
     left:630px;
     margin-left:0px;
     margin-right:0px;
+}
+
+/* back to home button */
+.home-image{
+    width: 7%;
+}
+
+.homeposition{
+    position: relative;
+    top: 0px;
+    left: 1290px;
+    margin-left:0px;
 }
