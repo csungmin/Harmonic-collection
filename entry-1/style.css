@@ -1,0 +1,90 @@
+body {
+    background-color: #b6ffeb;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    margin: 0; 
+}
+.title-text{
+    text-align: center;
+    color: #000;
+    font-family: 'dekko';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    position: absolute; 
+    top: 0%;
+}
+
+.text{
+    text-align: center;
+    color: #000;
+    font-family: 'dekko';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute; 
+    top: 6%;
+}
+
+/* the main image size */
+.image{
+    width: 500px;
+    height: 500px;
+}
+
+/* microwave element size */
+.element {
+    max-width: 300px;
+    height: auto;
+    margin: 5px;
+    /* bring this image to the front */
+    z-index: 100;
+}
+
+/* places image size and position */
+.image1{
+    width: 500px;
+    height: auto;
+    position: absolute; 
+    top:90%
+}
+.image2{
+    width: 500px;
+    height: auto;
+    position: absolute; 
+    top:140%
+}
+.image3{
+    width: 500px;
+    height: auto;
+    position: absolute; 
+    top:215%
+}
+.image4{
+    width: 500px;
+    height: auto;
+    position: absolute; 
+    top:270%
+}
+.image5{
+    width: 500px;
+    height: auto;
+    position: absolute; 
+    top:350%
+}
+
+/* back to home button */
+.home-image{
+    width: 30%;
+}
+
+.homeposition{
+    position: absolute;
+    top: 398%;
+    left: 80%;
+    margin-left:0px;
+} 
