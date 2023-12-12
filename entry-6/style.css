@@ -120,6 +120,19 @@ body{background-color: #c5ebfe;}
     top: 0px;
 }
 
+/* back to home button */
+.home-image{
+    width: 7%;
+}
+
+.homeposition{
+    position: relative;
+    top: -20px;
+    left: 0px;
+    margin-right:10px;
+    margin-left:15px;
+}
+
 /* Responsive - Colour */
 @media (max-height: 650px){
 body {background-color: rgb(250, 174, 32);}}
@@ -248,16 +261,9 @@ body {background-color: rgb(48, 160, 251);}}
         margin-left:0px;
         margin-right:0px;
     }
-     }
 
- /* back to home button */
+    /* back to home button image size */
 .home-image{
-    width: 7%;
+    width: 13%;
 }
-
-.homeposition{
-    position: relative;
-    top: 0px;
-    left: 1290px;
-    margin-left:0px;
-}
+     }

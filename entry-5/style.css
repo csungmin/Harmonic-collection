@@ -91,6 +91,20 @@ body{
 .homeposition{
     position: relative;
     top: 0px;
-    left: 1290px;
-    margin-left:0px;
+    left: 0px;
+    margin-right:10px;
+    margin-left:15px;
+}
+
+
+@media screen and (max-width: 800px) {
+    body{
+        /* overflow-x: hidden; */
+    }
+
+    /* back to home button image size */
+    .home-image{
+    width: 13%;
+    }
+
 }
