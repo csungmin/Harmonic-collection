@@ -131,7 +131,7 @@ body {background-color: rgb(116, 32, 250);}}
 body {background-color: rgb(66, 121, 11);}}
     
 @media (max-height: 150px){
-body {background-color: rgb(48, 160, 251);}} 
+body {background-color: #d3c4ff}} 
 
 
 @media (max-width: 1200px){
@@ -150,7 +150,7 @@ body {background-color: rgb(116, 32, 250);}}
 body {background-color: rgb(66, 121, 11);}}
     
 @media (max-width: 350px){
-body {background-color: rgb(48, 160, 251);}}   
+body {background-color: #d3c4ff}}   
 
 
 /* Responsive - positions (1070px) */
