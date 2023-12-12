@@ -1,20 +1,24 @@
 body {
     background-color: #9bc6ff;
-
-    overflow-x: hidden;
 }
 
-
 .container {
+    position: absolute;
+    width: 90%;
+    height: auto;
+}
+
+.container1 {
     position: absolute;
     width: 100%;
     height: 100%;
 }
 
+
 .cursor {
     z-index: 100;
     position: absolute;
-    width: 150px; 
+    width: 100px; 
     pointer-events: none;
 }
 
@@ -104,13 +108,65 @@ body {
 
 
 @media screen and (max-width: 800px) {
-    body {
-        /* overflow-x: hidden; */
-    }
+
 
     /* back to home button image size */
 .home-image{
     width: 13%;
+}
+
+/* image position */
+.imageposition{
+    position: relative;
+    top: 120px;
+    left:40px;
+    margin-left:0px;
+    margin-right:0px;
+}
+.imageposition2{
+    position: relative;
+    top: 0px;
+    left:300px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+/* text settings */
+.title-text{
+    text-align: left;
+    color: #000;
+    font-family: 'dekko';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.text{
+    text-align: left;
+    color: #000;
+    font-family: 'dekko';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text2{
+    text-align: right;
+    color: #000;
+    font-family: 'dekko';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cursor {
+    z-index: 100;
+    position: absolute;
+    width: 80px; 
+    pointer-events: none;
 }
 
 }

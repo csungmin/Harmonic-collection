@@ -4,8 +4,6 @@ body {
      is 16.39:1 which is very easy to read */
 }
 
-/* text settings */
-
 .grid {
     display: grid;
     grid-template-rows: 200px 200px 200px 200px; 
@@ -13,6 +11,7 @@ body {
     grid-gap: 5px;
 }
 
+/* text settings */
 .title-text{
     text-align: center;
     color: #000;
@@ -72,11 +71,6 @@ body {
     grid-row: 1 / 4;
     grid-column: 9 / 14; 
     margin:auto;
-    visibility:hidden;
-}
-
-.box-1:hover ~ .box-2{
-    visibility:visible;
 }
 
 /* back to home button */
@@ -99,8 +93,32 @@ body {
     }
 
     /* back to home button image size */
-.home-image{
-    width: 13%;
-}
+    .home-image{
+        width: 13%;
+    }
 
+    .grid {
+        display: grid;
+        grid-template-rows: auto auto auto auto; 
+        grid-template-columns: 10px auto auto auto auto auto auto auto auto auto auto auto auto 10px;
+        grid-gap: 5px;
+    }
+
+    /* text settings */
+    .title-text{
+        font-size: 30px;
+    }
+
+    .text{
+        font-size: 20px;
+    }
+
+    /* image settings */
+    .box{
+        width:200px;
+    }
+    .box:hover{
+        transform:scale(1);
+        z-index:2;
+    }
 }

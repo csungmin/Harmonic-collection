@@ -1,7 +1,9 @@
 body{
     background-color: #e4c4f5;
     overflow-x: hidden;
+    margin-left:-5px;
 }
+
 
 .image1{ display: block; width:400px; border-radius: 5px;}
 
@@ -14,29 +16,29 @@ body{
 /*text position*/
 .textposition{
     position: relative;
-    top: 5px;
-    left:340px;
+    top: 00%;
+    left:15%;
     margin-left:0px;
 }
 .textposition2{
     position: relative;
-    top: 150px;
-    left:540px;
+    top: 0%;
+    left:25%;
     margin-left:0px;
 }
 
 /* image position */
 .imageposition{
     position: relative;
-    top: 45px;
-    left:140px;
+    top: 5%;
+    left:10%;
     margin-left:0px;
     margin-right:0px;
 }
 .imageposition2{
     position: relative;
-    top: -460px;
-    left:740px;
+    top: -50%;
+    left:50%;
     margin-left:0px;
     margin-right:0px;
 }
@@ -44,29 +46,25 @@ body{
 /* small pigeions position */
 .position{
     position: relative;
-    top: -1010px;
-    left:240px;
+    left:20%;
     margin-left:0px;
     margin-right:0px;
 }
 .position1{
     position: relative;
-    top: -500px;
-    left:80px;
+    left:3%;
     margin-left:0px;
     margin-right:0px;
 }
 .position2{
     position: relative;
-    top: -800px;
-    left:720px;
+    left:50%;
     margin-left:0px;
     margin-right:0px;
 }
 .position3{
     position: relative;
-    top: -1200px;
-    left:1150px;
+    left:85%;
     margin-left:0px;
     margin-right:0px;
 }
@@ -79,8 +77,6 @@ body{
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    position: relative;
-    top: -900px;
 }
 
 /* back to home button */
@@ -92,19 +88,38 @@ body{
     position: relative;
     top: 0px;
     left: 0px;
-    margin-right:10px;
-    margin-left:15px;
+    margin-right:2%;
+    margin-left:2%;
 }
 
 
 @media screen and (max-width: 800px) {
     body{
-        /* overflow-x: hidden; */
+        margin-left:-5px;
     }
 
     /* back to home button image size */
     .home-image{
     width: 13%;
     }
+
+    /* text information */
+.text{
+    text-align: left;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+/* image size */
+.image1{ display: block; width:230px; border-radius: 5px;}
+
+.image2{ display: block; width:230px; border-radius: 5px;}
+
+.pigeon{
+    width:20%;
+}
 
 }

@@ -51,3 +51,53 @@ body {
     top: 30px;
     left:60px;
 }
+
+
+
+@media screen and (max-width: 800px) {
+
+    /* text */
+    .text-align1{
+        text-align: left;
+        margin-right: 10px; 
+    }
+    
+    .title-text{
+        color: #000;
+        font-size: 35px;
+        font-weight: 400;
+    }
+    
+    .text-align2{
+        text-align: right;
+        margin-right: 20px; 
+    }
+    
+    .text{
+        color: #000;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    
+    
+    /* image positioning */
+    .image-align{
+        text-align: right;
+        margin-right: 20px; 
+    }
+    
+    .smile-image{
+        width: 200px;
+    }
+    
+    .arrow-image{
+        width: 30px;
+        transform: rotate(50deg);
+    }
+    
+    .position{
+        position: relative;
+        top: 30px;
+        left:60px;
+    }
+}
