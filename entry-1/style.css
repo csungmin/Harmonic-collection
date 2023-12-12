@@ -93,9 +93,6 @@ body {
 
 
 @media screen and (max-width: 800px) {
-    body {
-        /* overflow-x: hidden; */
-    }
 
     /* back to home button image size */
 .home-image{
